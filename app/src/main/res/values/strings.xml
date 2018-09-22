@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Aula3</string>
+    <string name="senha_hint">Digite a senha</string>
+</resources>
