@@ -1,6 +1,7 @@
 package com.hugofilipe1501gmail.aula3;
 
 import android.arch.persistence.room.Dao;
+import android.arch.persistence.room.Delete;
 import android.arch.persistence.room.Insert;
 import android.arch.persistence.room.Query;
 
@@ -13,4 +14,8 @@ public abstract class SenhaDao {
 
     @Insert
     abstract void insert(Senha s);
+
+    @Delete
+    abstract void Delete(Senha s);
+
 }
